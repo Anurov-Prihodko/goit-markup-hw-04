@@ -405,8 +405,6 @@ body {
 }
 
 .social-list-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--icon-color);
 }
 
@@ -424,7 +422,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 44px;
   height: 44px;
   /* background-color: teal; */
@@ -562,8 +559,6 @@ body {
 
 .join-us-icon {
   display: flex;
-  width: 20px;
-  height: 20px;
   fill: var(--white-color);
 }
 
@@ -645,9 +640,14 @@ body {
   flex-wrap: wrap;
   margin-right: 30px;
   margin-bottom: 30px;
-  width: calc((100% - 66px) / 3);
+  width: calc((100% - 60px) / 3);
   outline: 1px solid var(--border-work-examples);
-  min-width: 370px;
+  /* min-width: 370px; */
+}
+
+.work-examples-img {
+  width: 370px;
+  height: 294px;
 }
 
 .work-examples-list {

@@ -209,8 +209,6 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
-  /* background-color: red; */
-  /* fill: var(--accent-color); */
 }
 
 .contacts {
@@ -613,11 +611,6 @@ body {
   border: 1px solid var(--portfolio-border);
 }
 
-.work-examples-link:hover,
-.work-examples-link:focus {
-  box-shadow: var(--work-examples-shadow);
-}
-
 /* ======== PORTFOLIO LINK BLOCK END ========= */
 
 /* ======== WORK EXAMPLES BLOCK ========= */
@@ -641,28 +634,26 @@ body {
 
 .description-foto {
   padding: 20px 25px;
-  min-width: 318px;
-  border-right: 1px solid var(--border-work-examples);
-  border-bottom: 1px solid var(--border-work-examples);
-  border-left: 1px solid var(--border-work-examples);
 }
-
-/* .card {
-  border: 1px solid var(--border-work-examples);
-} */
 
 .work-examples-item {
   display: flex;
   flex-wrap: wrap;
-
   margin-right: 30px;
   margin-bottom: 30px;
   width: calc((100% - 66px) / 3);
+  outline: 1px solid var(--border-work-examples);
+  min-width: 370px;
 }
 
 .work-examples-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.work-examples-link:hover,
+.work-examples-link:focus {
+  box-shadow: var(--work-examples-shadow);
 }
 
 .work-examples-item:nth-child(3n) {
